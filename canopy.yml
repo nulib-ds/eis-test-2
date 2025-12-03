@@ -13,7 +13,6 @@ search:
     order:
       - work
       - page
-      - examples
   index:
     metadata:
       enabled: true
@@ -21,11 +20,11 @@ search:
     summary:
       enabled: true
     annotations:
-      enabled: false
+      enabled: true
       motivation:
         - commenting
         - tagging
 theme:
   appearance: light
-  accentColor: indigo
-  grayColor: slate
+  accentColor: purple
+  grayColor: mauve
